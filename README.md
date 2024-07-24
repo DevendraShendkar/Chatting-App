@@ -3,7 +3,8 @@
 Welcome to the Chatting App! This app allows users to communicate in real-time with each other and also integrate AI-driven responses using ChatGPT.
 
 ### Features
-Real-time chat functionality.
+Real-time chat functionality. 
+
 AI-powered chat responses using ChatGPT.
 Firebase integration for secure and efficient data storage and management.
 Getting Started
