@@ -41,6 +41,9 @@ Firebase integration for secure and efficient data storage and management.
     <td style="padding: 10px;">
       <img src="https://github.com/user-attachments/assets/f3200335-dc93-4443-a319-ff1bf0998b92" width="350" />
     </td>
+    <td style="padding: 10px;">
+      <img src="https://github.com/user-attachments/assets/637adc1e-e8a9-4206-ab0a-61f0a56619c6" width="350" />
+    </td>
   </tr>
 </table>
 
