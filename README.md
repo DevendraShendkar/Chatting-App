@@ -12,7 +12,12 @@ Firebase integration for secure and efficient data storage and management.
 
 ### ScreenShots
 
+<img src="https://github.com/user-attachments/assets/de634b7c-32b4-4462-b218-989d37313341" width="350" />
+
 <img src="https://github.com/user-attachments/assets/b0eb69f2-39d8-4503-9b94-11a304f97407" width="350" />
+<img src="https://github.com/user-attachments/assets/38746e71-e70f-4ac9-97e4-9588e62728c4" width="350" />
+<img src="https://github.com/user-attachments/assets/f3200335-dc93-4443-a319-ff1bf0998b92" width="350" />
+
 
 
 ### Prerequisites
