@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Chit Chat</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_signup_now">Don\'t have an account?  SignUp Now</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="loginI">LogIn</string>
+    <string name="welcome_back">WELCOME BACK!</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="register">Create Account</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+    <string name="set_up_profile_text">Hey there! \nChoose a profile picture that represents you well and Write a brief and engaging bio that gives people an idea of who you are</string>
+    <string name="add_remove_family">Add/Remove \nFamily</string>
+
+</resources>

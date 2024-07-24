@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AllChatListFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler1"
+        android:layout_below="@id/layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:id="@+id/noGroupText"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/homeToolbar"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_marginBottom="150dp"
+        android:id="@+id/cuteDogLootie"
+        app:lottie_rawRes="@raw/cute_dog"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+</FrameLayout>

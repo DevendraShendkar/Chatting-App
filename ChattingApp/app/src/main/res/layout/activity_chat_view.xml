@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fav"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ChatViewActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerOnline"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/layer1"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layer1"
+        android:layout_alignBottom="@+id/recyclerOnline"
+        android:layout_marginStart="10dp"
+        android:id="@+id/noOnlineText"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/favBlack" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/recyclerOnline"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/favBlack"
+        android:textStyle="bold"
+        android:id="@+id/messageText"
+        android:text="Messages"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/layer"
+        android:layout_below="@+id/messageText"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/allChat"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/favBlack"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:text="All"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:id="@+id/group"
+            android:padding="10dp"
+            android:textColor="@color/favBlack"
+            android:text="Group"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textColor="@color/favBlack"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:id="@+id/familyChat"
+            android:layout_weight="30"
+            android:text="Family"/>
+
+    </LinearLayout>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_below="@id/layer"
+        android:layout_height="match_parent"
+        android:id="@+id/viewPager"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:id="@+id/layer1"
+        android:weightSum="100"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_weight="20"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:src="@drawable/chat_2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Search"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="55"
+            android:drawableStart="@drawable/search_icon"
+            android:padding="10dp"
+            android:id="@+id/search"
+            android:background="@drawable/search_edittext3"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_weight="25"
+            android:id="@+id/menu"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:src="@drawable/baseline_menu_24"
+            app:tint="@color/favBlack" />
+
+    </LinearLayout>
+
+
+    </RelativeLayout>

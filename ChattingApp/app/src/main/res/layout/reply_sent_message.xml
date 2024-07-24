@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/layout100"
+    android:layout_width="match_parent">
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/timeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:gravity="center"
+        android:background="@drawable/time_back"
+        android:padding="5dp"
+        android:textColor="@color/favBlack"
+        android:textSize="9sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/replayWritten"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/circle2"
+        android:padding="2dp"
+        android:id="@+id/current_userProfile"/>
+
+    <TextView
+        android:id="@+id/replayWritten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeDate"
+        android:layout_alignEnd="@+id/layer"
+        android:gravity="end"
+        android:text="Replied Message"
+        android:textColor="@color/favBlack"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/replayWritten"
+        android:layout_alignTop="@+id/current_userProfile"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/current_userProfile"
+        android:background="@drawable/reply_back"
+        android:padding="10dp"
+        android:textColor="@color/fav"
+        android:textSize="15sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/current_userProfile"
+        android:layout_marginStart="40dp"
+        android:layout_below="@id/reply"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/sent">
+
+        <TextView
+            android:id="@+id/txt_sent_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="10dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/timeEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/layer"
+            android:gravity="bottom"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_sent_message" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>
