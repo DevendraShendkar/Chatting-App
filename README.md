@@ -10,8 +10,8 @@ Getting Started
 
 ### Prerequisites
 
-Android Studio
-Firebase account
+Android Studio,
+Firebase account,
 OpenAI account
 
 # Installation
