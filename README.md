@@ -21,6 +21,7 @@ OpenAI account
 
 Copy code
 git clone https://github.com/yourusername/your-repo.git
+
 cd your-repo
 
 ### Open the project in Android Studio:
