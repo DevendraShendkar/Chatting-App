@@ -14,8 +14,8 @@ Android Studio
 Firebase account
 OpenAI account
 
-## Installation
-# Clone the repository:
+# Installation
+## Clone the repository:
 
 Copy code
 git clone https://github.com/yourusername/your-repo.git
