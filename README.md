@@ -24,6 +24,7 @@ git clone https://github.com/yourusername/your-repo.git
 cd your-repo
 
 ### Open the project in Android Studio:
+
 Open Android Studio and select File -> Open, then navigate to the project directory.
 
 ### Set up Firebase:
@@ -38,14 +39,14 @@ Place the google-services.json file in the app directory of your Android project
 
 
 ### Set up Firebase Cloud Messaging (FCM):
-
+bash
 In the Firebase Console, navigate to Project settings -> Cloud Messaging.
 Copy your Server key.
 
 
 ### Configure Firebase Server Key:
 
-Open Constants.kt located in the com.yourapp package.
+Open Constants.kt located in the com.example.chattingapp.model.
 Add your Firebase server key to the SERVER_KEY constant.
 kotlin
 Copy code
