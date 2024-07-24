@@ -29,8 +29,11 @@ Open Android Studio and select File -> Open, then navigate to the project direct
 ### Set up Firebase:
 
 Go to the Firebase Console.
+
 Create a new project or select an existing project.
+
 Add an Android app to your project and follow the instructions to download the google-services.json file.
+
 Place the google-services.json file in the app directory of your Android project.
 
 
