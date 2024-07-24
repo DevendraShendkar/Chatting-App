@@ -19,7 +19,6 @@ OpenAI account
 # Installation
 ## Clone the repository:
 
-Copy code
 git clone https://github.com/yourusername/your-repo.git
 
 cd your-repo
