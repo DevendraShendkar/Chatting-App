@@ -11,7 +11,8 @@ AI-powered chat responses using ChatGPT.
 Firebase integration for secure and efficient data storage and management.
 
 ### ScreenShots
-![chat home](https://github.com/user-attachments/assets/b0eb69f2-39d8-4503-9b94-11a304f97407)
+
+![chat home](https://github.com/user-attachments/assets/b0eb69f2-39d8-4503-9b94-11a304f97407 | width =100)
 
 
 ### Prerequisites
