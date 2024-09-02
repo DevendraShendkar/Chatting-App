@@ -60,9 +60,9 @@ OpenAI account
 # Installation
 ## Clone the repository:
 
-git clone https://github.com/yourusername/your-repo.git
+git clone https://github.com/DevendraShendkar/Chatting-App.git
 
-cd your-repo
+cd Chatting-App
 
 ### Open the project in Android Studio:
 
