@@ -121,4 +121,4 @@ To interact with the AI, simply type your message and the AI will respond.
 
 ## License
 
-This project is licensed under the Apache License 2.0. See the [LICENSE](Chatting-App/LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
